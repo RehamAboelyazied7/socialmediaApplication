@@ -1,4 +1,4 @@
-package user;
+package com.in28minutescourse.rest.service.restfuldemo.user;
 
 import java.util.Date;
 
@@ -6,6 +6,10 @@ public class User {
     private Integer id;
     private String name;
     private Date birthDate;
+
+    public User(){
+
+    }
 
     public User(int id, String name, Date date) {
         this.id = id;
