@@ -1,4 +1,4 @@
-package com.in28minutescourse.rest.service.restfuldemo;
+package com.in28minutescourse.rest.service.restfuldemo.helloworld;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

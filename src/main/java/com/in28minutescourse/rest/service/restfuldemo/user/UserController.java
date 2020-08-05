@@ -21,7 +21,11 @@ public class UserController {
 
     @GetMapping("/users/{id}")
     public User getUserById(@PathVariable int id) {
-        return userServiceDao.findUser(id);
+        User user = userServiceDao.findUser(id);
+        if (user == null) {
+            throw new UserNotFoundException("id- " + id);
+        }
+        return user;
     }
 
     @PostMapping("/users")

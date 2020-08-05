@@ -1,4 +1,4 @@
-package com.in28minutescourse.rest.service.restfuldemo;
+package com.in28minutescourse.rest.service.restfuldemo.helloworld;
 
 public class HelloWorldBean {
 
